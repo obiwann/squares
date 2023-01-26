@@ -1,7 +1,4 @@
 
-const width = 70;
-const height = 80;
-
 let findSquares = (width, height)=> {
     let squares = [];
     let x = 0;
@@ -20,13 +17,7 @@ let findSquares = (width, height)=> {
                 y += width;
             }
     }
-
-    //console.log(squareSize);
     return squares;
 }
-
-let squares = findSquares(width, height);
-console.log("squares:");
-console.log(squares);
 
 export default findSquares;
